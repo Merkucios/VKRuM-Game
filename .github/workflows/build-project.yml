@@ -1,4 +1,4 @@
-name: Acquire activation file
+name: Build project workflow 📱
 on:
   workflow_dispatch: {}
 
