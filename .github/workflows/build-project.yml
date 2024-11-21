@@ -53,5 +53,5 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Build
+          name: Perspective-VKRum-${{ matrix.platform }}
           path: build
