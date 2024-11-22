@@ -18,8 +18,55 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 20e80ad11b894264eaf6e9f8f22663b6, type: 2}
   - {fileID: 11400000, guid: 74ad806e9f245914e9cb76257619f3e1, type: 2}
   - {fileID: 11400000, guid: 6b649c2d11c43de4d91690bde8b38f95, type: 2}
-  m_Extensions: []
+  m_Extensions:
+  - rid: 1241551426374598901
   m_Group: String Table
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 1241551426374598901
+      type: {class: GoogleSheetsExtension, ns: UnityEditor.Localization.Plugins.Google, asm: Unity.Localization.Editor}
+      data:
+        m_Collection: {fileID: 11400000}
+        m_SheetsServiceProvider: {fileID: 11400000, guid: c694aeba478b5304ca00862faed28342, type: 2}
+        m_SpreadsheetId: 1apHGUmZNXVrObuD26kx1bMdtEo9_SIx-T-nzMD_dOiQ
+        m_SheetId: 0
+        m_Columns:
+        - rid: 1241551426374598905
+        - rid: 1241551426374598906
+        - rid: 1241551426374598908
+        - rid: 1241551426374598909
+        - rid: 1241551426374598910
+        m_RemoveMissingPulledKeys: 1
+    - rid: 1241551426374598905
+      type: {class: KeyColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: A
+    - rid: 1241551426374598906
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: B
+        m_LocaleIdentifier:
+          m_Code: ru
+        m_IncludeComments: 0
+    - rid: 1241551426374598908
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: C
+        m_LocaleIdentifier:
+          m_Code: en
+        m_IncludeComments: 0
+    - rid: 1241551426374598909
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: D
+        m_LocaleIdentifier:
+          m_Code: be
+        m_IncludeComments: 0
+    - rid: 1241551426374598910
+      type: {class: LocaleColumn, ns: UnityEditor.Localization.Plugins.Google.Columns, asm: Unity.Localization.Editor}
+      data:
+        m_Column: E
+        m_LocaleIdentifier:
+          m_Code: tr
+        m_IncludeComments: 0
