@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
-using Zenject;
 
 [CreateAssetMenu(fileName = "InputReader", menuName = "Game/Input Reader")]
 public class InputReader : ScriptableObject, GameInput.IPlayerActions, GameInput.IUIActions
@@ -29,21 +28,14 @@ public class InputReader : ScriptableObject, GameInput.IPlayerActions, GameInput
     public event UnityAction RightClickEvent = delegate { }; 
     public event UnityAction<Vector2> ScrollWheelEvent = delegate { };
 
-    [Inject]
-    public void Construct(GameInput gameInput)
-    {
-        _gameInput = gameInput;
-            
-        _gameInput.Player.SetCallbacks(this);
-        _gameInput.UI.SetCallbacks(this);
-    }
-    
     private void OnEnable()
     {
-        if (_gameInput != null)
+        if (_gameInput == null)
         {
-            _gameInput.Player.Enable();
-            _gameInput.UI.Enable();
+            _gameInput = new GameInput();
+            
+            _gameInput.Player.SetCallbacks(this);
+            _gameInput.UI.SetCallbacks(this);
         }
     }
 
