@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        platform: [WebGL, Android]
+        platform: [Android]
 
     steps:
       # Освобождаем место на диске сервера
