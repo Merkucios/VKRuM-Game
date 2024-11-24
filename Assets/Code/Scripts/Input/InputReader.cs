@@ -9,6 +9,8 @@ public class InputReader : ScriptableObject, GameInput.IPlayerActions, GameInput
     
     // Player Actions
     public event UnityAction<Vector2> MoveEvent = delegate { };
+    public event UnityAction<bool> MoveStateChangedEvent = delegate { };
+
     public event UnityAction<Vector2> LookEvent = delegate { };
     public event UnityAction AttackEvent = delegate { };
     public event UnityAction AttackCanceledEvent = delegate { };
@@ -48,7 +50,11 @@ public class InputReader : ScriptableObject, GameInput.IPlayerActions, GameInput
     // Gameplay Action map  
     public void OnMove(InputAction.CallbackContext context)
     {
-        MoveEvent.Invoke(context.ReadValue<Vector2>());
+        Vector2 direction = context.ReadValue<Vector2>();
+        MoveEvent.Invoke(direction);
+
+        bool isPressed = context.phase != InputActionPhase.Canceled;
+        MoveStateChangedEvent.Invoke(isPressed);
     }
     
     public void OnRun(InputAction.CallbackContext context)
