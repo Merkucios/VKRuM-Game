@@ -1,16 +1,21 @@
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
-public class GameSceneSO : MonoBehaviour
+public class GameSceneSO : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameSceneType sceneType;
+    public AssetReference sceneReference;
+    
+    public enum GameSceneType
     {
-        
-    }
+        // Gameplay Scenes
+        Location, 
+        Menu, 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //Special scenes
+        Boot,
+        Gameplay,
+        PersistentManagers,
+
     }
 }

@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: health
     m_Metadata:
       m_Items: []
+  - m_Id: 2515748842598400
+    m_Localized: forest
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

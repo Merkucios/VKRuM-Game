@@ -14,7 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
   m_GUID: 8d9c1541679af8e4caab55db718142f3
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 26822c4166b26da4588b962a3f970281
+    m_Address: Assets/Level/Scenes/Menus/MainMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68207b95d476f98449aa1e89821dc791
+    m_Address: Assets/Level/Scenes/Managers/PersistentManagers.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99c9720ab356a0642a771bea13969a05
+    m_Address: Assets/Level/Scenes/Locations/ForestScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5e6ee9c6ef40f74b8a6989a1addacf2
+    m_Address: Assets/Level/Scenes/Managers/Gameplay.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e0db705bbc8580746ba1297326029b0d, type: 2}
   m_SchemaSet:

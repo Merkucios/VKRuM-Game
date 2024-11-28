@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: health
     m_Metadata:
       m_Items: []
+  - m_Id: 2515748842598400
+    m_Key: forest
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
