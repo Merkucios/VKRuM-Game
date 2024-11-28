@@ -8,7 +8,7 @@ public class OnScreenStickOnlyY : OnScreenControl, IPointerDownHandler, IDragHan
     [SerializeField] private RectTransform background; 
     [SerializeField] private float handleRange = 1f; 
     [SerializeField] private float deadZone = 0f; 
-    [SerializeField, Tooltip("Input Control путь (<Gamepad>/leftStick)")]
+    [SerializeField, Tooltip("Input Control Path (<Gamepad>/leftStick)")]
     private string controlPathOverride = "<Gamepad>/leftStick"; 
 
     private Vector2 _pointerDownPosition;
