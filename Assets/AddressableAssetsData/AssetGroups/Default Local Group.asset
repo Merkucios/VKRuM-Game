@@ -35,6 +35,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f88ece27efbe4fa489c6d4b2c0be723a
+    m_Address: Assets/ScriptableObjects/Events/SceneManagment/LoadMenu.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e0db705bbc8580746ba1297326029b0d, type: 2}
   m_SchemaSet:

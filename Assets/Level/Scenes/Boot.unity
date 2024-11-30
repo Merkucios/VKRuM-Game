@@ -163,6 +163,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f8ef0769cf5ed449fd3f303b68ab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _managersScene: {fileID: 11400000, guid: 223b90abad8022742aa3f03485adf4f3, type: 2}
+  _menuToLoad: {fileID: 11400000, guid: 4fb53ce8e0c2f5049b29cd11ed5f3234, type: 2}
+  _menuLoadChannel:
+    m_AssetGUID: f88ece27efbe4fa489c6d4b2c0be723a
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
