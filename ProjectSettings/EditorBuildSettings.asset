@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level/Scenes/Boot.unity
     guid: 575a6b05721b9eb4694a9608cc42232d
+  - enabled: 1
+    path: Assets/Level/Scenes/Locations/ForestScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 1a9980ccc0063e94a82af37d5dab18c4, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 7773878f130cfb8428b69eab0b63c66d, type: 2}

@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/MenuUSS.uss?fileID=7433441132597879392&amp;guid=774fa86749e326543a716164d8e2bef9&amp;type=3#MenuUSS" />
+    <engine:Button text="Button" class="MenuUSS BattleButton" style="bottom: auto; -unity-text-align: middle-center; white-space: nowrap; position: relative; left: auto;" />
+</engine:UXML>
