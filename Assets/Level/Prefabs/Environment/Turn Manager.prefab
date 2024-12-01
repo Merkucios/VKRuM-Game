@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &246551117675318917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6515303109128277057}
+  - component: {fileID: 2541819957827034691}
+  m_Layer: 0
+  m_Name: Turn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6515303109128277057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246551117675318917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.052699, y: -4.558561, z: 11.308724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2541819957827034691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246551117675318917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4add6f8873db68418e50d0b5fd02210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTurnState: 0
+  uiManager: {fileID: 0}
+  passed: 0
+  ballPrefab: {fileID: 462891036539758865, guid: 6bc688aee91289b448b570a9e508427e, type: 3}
+  spawnPoint: {fileID: 0}
+  playerCamera: {fileID: 0}
+  kegels: {fileID: 0}
+  smallHouse: {fileID: 5384418584690726596, guid: e05443b55a288934bbea5a52e30c8448, type: 3}
+  mediumHouse: {fileID: 8977105355760384850, guid: d585608df76756b4b98365514e128635, type: 3}
+  highHouse: {fileID: 8387716708891748274, guid: 5e8dbf573b7dcbb4fa16324a75705f32, type: 3}
+  tallHouse: {fileID: 4211091321553051743, guid: d99759a28d34af7409c027df477273ac, type: 3}
