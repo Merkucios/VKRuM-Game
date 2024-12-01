@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onSceneReady: {fileID: 11400000, guid: 182e6783faee1254594d8e1ea4bcdf53, type: 2}
   _playMusicOn: {fileID: 11400000, guid: 764b70ce08beb804dbce33e99c40cc53, type: 2}
-  _thisSceneSO: {fileID: 11400000, guid: 4fb53ce8e0c2f5049b29cd11ed5f3234, type: 2}
+  _thisSceneSO: {fileID: 0}
   _audioConfig: {fileID: 11400000, guid: c7fad5fe37b6f1b4e82ce2eb4af90263, type: 2}
   _pauseMusic: {fileID: 11400000, guid: 83d890767b4b9c74f8504c3093da5e3c, type: 2}
   _onPauseOpened: {fileID: 11400000, guid: a8c08248f3edafd49b922ed9aba80752, type: 2}
