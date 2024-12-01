@@ -4755,6 +4755,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2064785189653684024, guid: 8fa6c6b1d01ffcc43808a8ef829f1499, type: 3}
+      propertyPath: _thisSceneSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a6fdbd1a21608e40a9db13d1fac420d, type: 2}
     - target: {fileID: 6809215894135788993, guid: 8fa6c6b1d01ffcc43808a8ef829f1499, type: 3}
       propertyPath: m_Name
       value: MusicPlayer

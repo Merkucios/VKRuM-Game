@@ -9,6 +9,7 @@ public class RockController : MonoBehaviour
     private Vector2 _currentInputVector;
     private float _forceStrength;
 
+    
     [SerializeField] private InputReader _inputReader;
     [SerializeField] private float forceMultiplier = 10f;
     [SerializeField] private float rotationSmoothTime = 0.1f;
