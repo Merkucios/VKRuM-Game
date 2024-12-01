@@ -19,3 +19,4 @@ MonoBehaviour:
     m_SubObjectGUID: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  musicTrack: {fileID: 11400000, guid: 8009b5c1c589cce45ac34b1ae4b4da28, type: 2}

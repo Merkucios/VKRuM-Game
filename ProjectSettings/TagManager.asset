@@ -7,6 +7,7 @@ TagManager:
   - Ball
   - Roof
   - Ground
+  - AudioManager
   layers:
   - Default
   - TransparentFX
